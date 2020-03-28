@@ -20,6 +20,7 @@
         // .push() 方法會添加一個或多個元素至陣列的末端，並且回傳陣列的新長度。
         arr.push(random);
         // 當數字重複時繼續執行
+        // includes() 方法會判斷陣列是否包含特定的元素，並以此來回傳 true 或 false。
         while (arr.includes(random)) {
           random = rand(1, 38);
         }
